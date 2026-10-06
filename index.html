@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/img/favicon/meteor-solid.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <style>
+        *{
+    margin: 0;
+    padding: auto;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #020220;
+    color: aliceblue;
+}
+/*debut de la partie*/
+#acceuil{
+    display: flex;
+    margin: 25px;
+    justify-content: space-around;
+}
+
+.logo img{
+    max-width: 400px;
+    height: auto;
+    border: rgb(50, 8, 235) 2px solid;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow:mediumblue 0 0 25px;
+}
+
+.propos .h3{
+    text-align: center;
+    max-width: 250px;
+    height: auto;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 5px;
+}
+
+.h3 h3{
+    color: mediumblue;
+    text-align: center;
+}
+
+.propos h2{
+    font-size: 60px;
+}
+
+.propos h1{
+    font-size: 60px;
+    color: mediumblue;
+}
+
+.propos .h1 h3{
+    font-size: 30px;
+}
+
+.propos p{
+    font-size: 20px;
+}
+
+.propos p span{
+    color: mediumblue;
+}
+
+/*fin de la partir acceuil*/
+
+/*what*/
+#wh{
+    text-align: center;
+    color: mediumblue;
+}
+.what{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.what .card{
+    text-align: center;
+    max-width: 250px;
+    height: auto;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(89, 92, 109, 0.5);
+    color: white;
+}
+
+.card .img img{
+    max-width: 100px;
+    height: auto;
+    padding: 10px;
+}
+/*what fin*/
+.mi{
+    display: flex;
+    justify-content: space-around;
+}
+/*SKILLS*/
+#skills{
+    color: mediumblue;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 15px;
+    max-width: 1280px;
+    height: auto;
+    padding: 15px;
+}
+
+.class h4{
+    color: white;
+}
+
+.class p{
+    text-align: center;
+}
+#graph{
+    display: flex;
+}
+
+#graph #hr{
+    background-color: #150A4A;
+    width: 350px;
+    height: 10px;
+    border-radius: 15px;
+    max-width: 350px;
+}
+
+#graph .hr1{
+    background: linear-gradient(135deg,#2D33D6, #4495EB);
+    width: 300px;
+    height: 10px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+#graph .hr2{
+    background: linear-gradient(135deg,#2D33D6, #4495EB);
+    width: 200px;
+    height: 10px;
+    border-radius: 15px;
+    max-width: 200px;
+}
+
+#graph .hr3{
+    background: linear-gradient(135deg,#2D33D6, #4495EB);
+    width: 150px;
+    height: 10px;
+    border-radius: 15px;
+    max-width: 150px;
+}
+#graph .hr4{
+    background: linear-gradient(135deg,#2D33D6, #4495EB);
+    width: 300px;
+    height: 10px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+#graph .hr5{
+    background: linear-gradient(135deg,#2D33D6, #4495EB);
+    width: 250px;
+    height: 10px;
+    border-radius: 15px;
+    max-width: 250px;
+}
+/*SKILLS END*/
+
+/*tool*/
+#tool{
+    color: mediumblue;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 15px;
+    max-width: 1280px;
+    height: auto;
+    padding: 15px;
+}
+.tol{
+    display: flex;
+    gap: 20px;
+}
+
+.tol .toca{
+    text-align: center;
+    max-width: 250px;
+    height: auto;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(89, 92, 109, 0.5);
+    color: white;
+}
+
+.tol .toca .toi img{
+    max-width: 150px;
+    height: auto;
+    padding: 10px;
+}
+/*tool end*/
+
+/*foo*/
+
+#foo{
+    display: flex;
+    justify-content: space-around;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 15px;
+    max-width: 1200px;
+    height: auto;
+    padding: 15px;
+}
+
+.cfo{
+    display: flex;
+}
+
+.cfo img{
+    max-width: 100px;
+    height: auto;
+}
+/*foo end*/
+
+/*footer*/
+footer{
+   display: flex;
+    justify-content: space-around;
+    border: rgb(50, 8, 235) 1px solid;
+    border-radius: 15px;
+    max-width: 1200px;
+    height: auto;
+    padding: 15px; 
+}
+
+footer .fo1{
+    text-align: left;
+}
+
+footer .fo1 h1{
+    color: #2D33D6;
+}
+
+footer .fo1 button{
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(135deg,#2D33D6, #4495EB);
+}
+footer .foimg img{
+    max-width: 50px;
+    height: auto;
+}
+
+footer .foimg{
+    display: flex;
+    justify-content: center;
+}
+
+footer .foimg a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+/*footer end*/
+
+
+
+    </style>
+    <title>Meriadek.T</title>
+</head>
+<body>
+    <!--Debut de la partit acceuil-->
+    <section id="acceuil">
+
+        <div class="logo">
+
+            <img src="Assets/img/f2d392c88a22b1a0f76655997b69b384.jpg" alt="">
+
+        </div>
+
+        <div class="propos">
+
+            <div class="h3"><h3>FRONTEND DEVELOPER</h3></div>
+
+            <h2>I HELP BUSINESSES</h2>
+
+            <h1>GROW ONLINE</h1>
+
+            <div class="h1"><h3>WITH MODERN,RESPONSIVE & <br>HIGH-PERFORMANCE WEBSITES.</h3></div>
+
+            <p>I'm <span>Mériadek TOUDONOU</span>,a Frontend developer who <br>
+            loves turning ideas into  clean,scalabe and <br>
+            user-frendly digital Experiences.</p>
+        </div>
+    </section>
+    <!--fin de la partie acceuil-->
+
+    <!--What i do-->
+    <section id="wh">
+        <h2>WHAT I DO</h2>
+        <br>
+        <div class="what">
+
+ <!--Card new-->
+           <div class="card">
+            <div class="img"><img src="Assets/img/favicon/computer-solid.png" alt=""></div>
+            <h3>RESPONSIVE <br>WEB DESIGNS</h3>
+            <p>Pixel-pecfert,modern <br>and responsive <br>website.</p>
+           </div>
+
+           <div class="card">
+            <div class="img"><img src="Assets/img/favicon/code-solid.png" alt=""></div>
+            <h3>CLEAN & SCALABLE <br>CODE</h3>
+            <p>Well-stuctured, <br>maintainable and <br>scalable code.</p>
+           </div>
+
+           <div class="card">
+            <div class="img"><img src="Assets/img/favicon/node-js-brands-solid.png" alt=""></div>
+            <h3>JAVASCRIPT.JS <br>DEVELOPMENT</h3>
+            <p>Dynamic web apps <br>using js and<br>reusable component</p>
+           </div>
+
+           <div class="card">
+            <div class="img"><img src="Assets/img/favicon/wordpress-simple-brands-solid.png" alt=""></div>
+            <h3>WORDPRESS <br>DEVELOPER</h3>
+            <p>Custom Wordpress <br>Website with theme <br>& plugin integration.</p>
+           </div>
+ <!--Card end-->
+
+        </div>
+    </section>
+    <!--Whet end-->
+<br><br>
+    <div class="mi">
+
+        <!--SKILLS-->
+        <section id="skills">
+            <h2>MY SKILLS</h2>
+
+            <br><br>
+            <div class="class">
+                <h4>HTML5,CSS3</h4>
+                <br>
+                <section id="graph"><div id="hr"><div class="hr1"></div></div><br><p>95%</p></section>
+            </div>
+            <br><br>
+            <div class="class">
+                <h4>Wordpress(Theme & Plugin)</h4>
+                <br>
+                <section id="graph"><div id="hr"><div class="hr2"></div></div><br><p>85%</p></section>
+            </div>
+            <br><br>
+            <div class="class">
+                <h4>Javascript</h4>
+                <br>
+                <section id="graph"><div id="hr"><div class="hr3"></div></div><br><p>50%</p></section>
+            </div>
+            <br><br>
+            <div class="class">
+                <h4>Responsive Designs</h4>
+                <br>
+                <section id="graph"><div id="hr"><div class="hr4"></div></div><br><p>95%</p></section>
+            </div>
+            <br><br>
+            <div class="class">
+                <h4>Clean Code & Ploblem Solving</h4>
+                <br>
+                <section id="graph"><div id="hr"><div class="hr5"></div></div><br><p>90%</p></section>
+            </div>
+        </section>
+        <!--SKILLS END-->
+
+        <!--tool-->
+    <section id="tool">
+        <h2>TOOL & TECHNOLOGIE</h2>
+        <br>
+        <div class="tol">
+            <div class="toca"><div class="toi"><img src="Assets/img/favicon/html5-brands-solid.png" alt=""></div><h3>HTML5</h3></div>
+            <div class="toca"><div class="toi"><img src="Assets/img/favicon/css3-alt-brands-solid.png" alt=""></div><h3>CSS3</h3></div>
+            <div class="toca"><div class="toi"><img src="Assets/img/favicon/js-brands-solid.png" alt=""></div><h3>JAVASCRIPT</h3></div>
+        </div>
+        <br><br>
+        <div class="tol">
+            <div class="toca"><div class="toi"><img src="Assets/img/favicon/wordpress-simple-brands-solid.png" alt=""></div><h3>WORDPRESS</h3></div>
+            <div class="toca"><div class="toi"><img src="Assets/img/favicon/tailwind-css-brands-solid.png" alt=""></div><h3>TELWING CSS</h3></div>
+            <div class="toca"><div class="toi"><img src="Assets/img/favicon/github-brands-solid.png" alt=""></div><h3>GIT & GITHUB</h3></div>
+        </div>
+    </section>
+    <!--tool end-->
+
+    </div>
+    <br><br>
+
+    <!--foo-->
+    <center><section id="foo">
+
+            <div class="cfo">
+            <img src="Assets/img/favicon/briefcase-solid.png" alt="">
+            <div class="cf"><h1>1+</h1><h3>YEARS OF <br>EXPERIENCES</h3></div>
+        </div>
+        <br>
+
+        <hr>
+        <div class="cfo">
+            <img src="Assets/img/favicon/laptop-solid.png" alt="">
+            <div class="cf"><h1>10+</h1><h3>PROJECTS <br>COMPLETED</h3></div>
+        </div>
+        <br>
+
+        <hr>
+        <div class="cfo">
+            <img src="Assets/img/favicon/face-smile-regular.png" alt="">
+            <div class="cf"><h1>100%</h1><h3>CLIENTS <br>SATISFACTION</h3></div>
+        </div>
+        <br>
+
+        <hr>
+        <div class="cfo">
+            <img src="Assets/img/favicon/grav-brands-solid.png" alt="">
+            <div class="cf"><h1>FAST</h1><h3>DELIVERY & <br>SUPPORT</h3></div>
+        </div>
+        <br>
+
+        <hr>
+        <div class="cfo">
+            <img src="Assets/img/favicon/mobile-screen-solid.png" alt="">
+            <div class="cf"><h1>100%</h1><h3>RESPONSIVE <br>SOLUTION</h3></div>
+        </div>
+    </section></center>
+    <!--foo end-->
+
+    <br>
+
+    <!--footer-->
+    <center>
+        <footer>
+        <div class="fo1">
+            <h2>HAVE A PROJECT IN MIND?</h2>
+            <h1>LET'S WORK TOGOTHER!</h1>
+            <button type="submit">DM ME TODAY→</button>
+        </div>
+
+        <hr>
+
+        <div class="fo">
+
+            <div class="foimg">
+                <img src="Assets/img/favicon/envelope-regular.png" alt="">
+                <a  href="mailto:tonadresse@gmail.com">tmeriadek@gmail.com</a>
+            </div>
+            <br>
+            <div class="foimg">
+                <img src="Assets/img/favicon/whatsapp-brands-solid.png" alt="">
+                <a href="https://wa.me/2290150083829">+229 01 50 08 38 29</a>
+            </div>
+            <br>
+            <div class="foimg">
+                <img src="Assets/img/favicon/square-facebook-brands-solid.png" alt="">
+                <a  href="https://www.facebook.com/Meriadek TOUDONOU" target="_blank">Meriadek TOUDONOU</a>
+            </div>
+        
+        </div>
+    </footer>
+    </center>
+    <!--footer end-->
+</body>
+</html>
